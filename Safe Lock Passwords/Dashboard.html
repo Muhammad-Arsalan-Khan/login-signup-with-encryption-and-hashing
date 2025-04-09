@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <nav>
+        <h1>Welcome to the Dashboard</h1>
+    </nav>
+    <main>
+        <h1>Project</h1>
+        <h3>Concepts</h3>
+        <ul>
+            <li>Hashing (bcrypt, SHA-256), Salting, Secure Storage</li>
+        </ul>
+        <h3>Objective:</h3>
+        <ul>
+            <li>Develop a password manager where users can store, retrieve, and generate secure passwords.
+                sitific-4netgence</li>
+            <li>Hash passwords using bcrypt with salting before storing them.</li>
+            <li>Add AES-256 encryption for extra security.</li>
+        </ul>
+        <h3>Project by: Arsalan & Team</h3>
+        <ul>
+            <li>Muhammad Arsalan Khan</li>
+            <li>Siraj</li>
+            <li>Murtaza</li>
+            <li>Mohsin</li>
+        </ul>
+    </main>
+    <script>
+        (
+    async function checkLogin(){
+        try {
+        const userEmail = localStorage.getItem("email")
+        if (!userEmail) {
+           window.location.replace("./login.html")
+          }
+        } catch (error) {
+            console.log(error.code, error.message)
+        }
+    }
+    )();
+    </script>
+</body>
+</html>

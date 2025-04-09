@@ -1,0 +1,79 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navigation Bar */
+nav{
+    width: 100%;
+    background-color: #2c3e50;
+    text-align: center;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+nav h1{
+    color: white;
+}
+
+/* Main Content */
+main {
+    background: white;
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+}
+
+/* Headings */
+h1 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #34495e;
+    margin: 10px 0;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ecf0f1;
+    margin: 8px 0;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+ul li:hover {
+    background: #d5dbdb;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    main {
+        width: 100%;
+    }
+}
