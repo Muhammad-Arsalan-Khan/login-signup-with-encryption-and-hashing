@@ -63,5 +63,8 @@ A "Generate Password" button allows users to generate a strong password that con
 
 ---
 
-## 📁 Project Structure
+## 📁 Clone Project
+```bash
+https://github.com/Muhammad-Arsalan-Khan/login-signup-with-encryption-and-hashing.git
+```
 
